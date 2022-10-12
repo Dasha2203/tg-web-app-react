@@ -13,7 +13,7 @@ const Form = () => {
         }
 
         tg.sendData(JSON.stringify(data));
-    }, [])
+    }, [country, street])
 
     useEffect(() => {
         tg.MainButton.setParams({
