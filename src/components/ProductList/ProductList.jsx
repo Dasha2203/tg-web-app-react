@@ -50,6 +50,7 @@ const ProductList = () => {
                 <ProductItem
                     product={item}
                     onAdd={onAdd}
+                    className={'item'}
                 />
             ))}
         </div>
